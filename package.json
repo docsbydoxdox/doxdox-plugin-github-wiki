@@ -1,0 +1,40 @@
+{
+  "name": "doxdox-plugin-github-wiki",
+  "description": "GitHub wiki export plugin for doxdox.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "0.4.7",
+    "handlebars": "4.0.5"
+  },
+  "devDependencies": {
+    "@neogeek/eslint-config-standards": "1.6.4",
+    "eslint": "3.8.1"
+  },
+  "peerDependencies": {
+    "doxdox": "^1.1.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "doxdox",
+    "plugin",
+    "github",
+    "wiki",
+    "markdown"
+  ],
+  "authors": [
+    {
+      "name": "Scott Doxey",
+      "email": "hello@scottdoxey.com",
+      "homepage": "http://scottdoxey.com/"
+    }
+  ],
+  "homepage": "https://github.com/neogeek/doxdox-plugin-github-wiki",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/neogeek/doxdox-plugin-github-wiki.git"
+  }
+}
