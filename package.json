@@ -9,14 +9,14 @@
   "license": "MIT",
   "dependencies": {
     "adm-zip": "0.4.7",
-    "handlebars": "4.0.5"
+    "handlebars": "4.0.6"
   },
   "devDependencies": {
-    "@neogeek/eslint-config-standards": "1.7.0",
-    "eslint": "3.9.1"
+    "@neogeek/eslint-config-standards": "1.8.0",
+    "eslint": "3.10.2"
   },
   "peerDependencies": {
-    "doxdox": "^1.1.x"
+    "doxdox": "~1.1.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
