@@ -23,7 +23,7 @@ GitHub wiki export plugin for doxdox.
 ##### Examples
 
 ```javascript
-parseInputs(inputs, {'parser': 'dox', 'layout': 'github-wiki'}).then(content => console.log(content));
+parseInputs(inputs, {'parser': 'dox', 'layout': 'github-wiki'}).then(buffer => console.log(buffer));
 ```
 
 
