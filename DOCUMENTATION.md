@@ -15,7 +15,9 @@ GitHub wiki export plugin for doxdox.
 
 ##### Parameters
 
-- **data** `Array`   Methods parsed using a doxdox parser.
+| Name | Type | Description |  |
+| ---- | ---- | ----------- | -------- |
+| data | `Array`  | Methods parsed using a doxdox parser. | &nbsp; |
 
 
 
@@ -30,7 +32,7 @@ parseInputs(inputs, {'parser': 'dox', 'layout': 'github-wiki'}).then(buffer => c
 ##### Returns
 
 
-- `Promise`   Promise with generated content.
+- `Promise`  Promise with generated content.
 
 
 
