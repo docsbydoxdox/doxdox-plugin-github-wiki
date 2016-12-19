@@ -1,4 +1,4 @@
-# [doxdox-plugin-github-wiki](https://github.com/neogeek/doxdox-plugin-github-wiki) *1.0.0*
+# [doxdox-plugin-github-wiki](https://github.com/neogeek/doxdox-plugin-github-wiki) *1.1.0*
 
 > GitHub wiki export plugin for doxdox.
 
