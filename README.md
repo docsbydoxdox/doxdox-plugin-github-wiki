@@ -1,5 +1,7 @@
 # doxdox-plugin-github-wiki
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/neogeek/doxdox-plugin-github-wiki.svg)](https://greenkeeper.io/)
+
 > GitHub wiki export plugin for doxdox.
 
 [![Build Status](https://travis-ci.org/neogeek/doxdox-plugin-github-wiki.svg?branch=master)](https://travis-ci.org/neogeek/doxdox-plugin-github-wiki)
