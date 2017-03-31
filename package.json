@@ -12,8 +12,8 @@
     "handlebars": "4.0.6"
   },
   "devDependencies": {
-    "@neogeek/eslint-config-standards": "1.15.0",
-    "eslint": "3.18.0"
+    "@neogeek/eslint-config-standards": "^1.15.0",
+    "eslint": "^3.18.0"
   },
   "peerDependencies": {
     "doxdox": "~2.0.1"
