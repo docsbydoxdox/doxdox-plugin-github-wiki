@@ -13,10 +13,10 @@
   },
   "devDependencies": {
     "@neogeek/eslint-config-standards": "^1.15.0",
-    "eslint": "^3.18.0"
+    "eslint": "^3.19.0"
   },
   "peerDependencies": {
-    "doxdox": "~2.0.1"
+    "doxdox": "~2.0.2"
   },
   "scripts": {
     "test": "make test"
