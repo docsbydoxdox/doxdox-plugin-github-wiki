@@ -8,8 +8,10 @@
 
 ## Parameters
 
+| Name | Type | Description |  |
+| ---- | ---- | ----------- | -------- |
 {{#each tags.param}}
-- **{{name}}** {{#each types}}`{{.}}` {{/each}} {{#if isOptional}}*Optional*{{/if}} {{{description}}}
+| {{name}} | {{#each types}}`{{.}}` {{/each}} | {{{description}}} | {{#if isOptional}}*Optional*{{else}}&nbsp;{{/if}} |
 {{/each}}
 
 {{/if}}
@@ -18,8 +20,10 @@
 
 ## Properties
 
-{{#each tags.property}}
-- **{{name}}** {{#each types}}`{{.}}` {{/each}} {{#if isOptional}}*Optional*{{/if}} {{{description}}}
+| Name | Type | Description |  |
+| ---- | ---- | ----------- | -------- |
+{{#each tags.param}}
+| {{name}} | {{#each types}}`{{.}}` {{/each}} | {{{description}}} | {{#if isOptional}}*Optional*{{else}}&nbsp;{{/if}} |
 {{/each}}
 
 {{/if}}
@@ -41,7 +45,7 @@
 {{#if tags.return}}
 
 {{#each tags.return}}
-- {{#each types}}`{{.}}` {{/each}} {{#if isOptional}}*Optional*{{/if}} {{{description}}}
+- {{#each types}}`{{.}}` {{/each}} {{{description}}}
 {{/each}}
 
 {{else}}
