@@ -3,6 +3,8 @@ const path = require('path');
 
 const Handlebars = require('handlebars');
 
+require('./helpers');
+
 const admzip = require('adm-zip');
 
 /**

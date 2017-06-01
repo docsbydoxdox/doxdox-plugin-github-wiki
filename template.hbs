@@ -11,7 +11,7 @@
 | Name | Type | Description |  |
 | ---- | ---- | ----------- | -------- |
 {{#each tags.param}}
-| {{name}} | {{#each types}}`{{.}}` {{/each}} | {{{description}}} | {{#if isOptional}}*Optional*{{else}}&nbsp;{{/if}} |
+| {{name}} | {{#each types}}`{{{.}}}` {{/each}} | {{{replaceNewLinesWithBR description}}} | {{#if isOptional}}*Optional*{{else}}&nbsp;{{/if}} |
 {{/each}}
 
 {{/if}}
@@ -23,7 +23,7 @@
 | Name | Type | Description |  |
 | ---- | ---- | ----------- | -------- |
 {{#each tags.param}}
-| {{name}} | {{#each types}}`{{.}}` {{/each}} | {{{description}}} | {{#if isOptional}}*Optional*{{else}}&nbsp;{{/if}} |
+| {{name}} | {{#each types}}`{{{.}}}` {{/each}} | {{{replaceNewLinesWithBR description}}} | {{#if isOptional}}*Optional*{{else}}&nbsp;{{/if}} |
 {{/each}}
 
 {{/if}}
