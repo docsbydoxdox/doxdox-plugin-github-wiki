@@ -16,7 +16,7 @@
     "eslint": "^3.19.0"
   },
   "peerDependencies": {
-    "doxdox": "~2.0.2"
+    "doxdox": "~2.0.3"
   },
   "scripts": {
     "test": "make test"
