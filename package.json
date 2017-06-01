@@ -19,7 +19,10 @@
     "doxdox": "~2.0.3"
   },
   "scripts": {
-    "test": "make test"
+    "test": "npm run lint",
+    "test:docs": "doxdox index.js --layout markdown | diff DOCUMENTATION.md -",
+    "lint": "eslint .",
+    "docs": "doxdox index.js --layout markdown --output DOCUMENTATION.md"
   },
   "keywords": [
     "doxdox",
