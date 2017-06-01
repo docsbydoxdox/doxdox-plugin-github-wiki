@@ -8,5 +8,5 @@ before_install:
   - if [[ `npm -v` != 3* ]]; then npm i -g npm@3; fi
   - npm install doxdox -g
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - npm run test:docs
 sudo: false
