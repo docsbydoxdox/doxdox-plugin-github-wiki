@@ -8,12 +8,13 @@
   },
   "license": "MIT",
   "dependencies": {
-    "adm-zip": "0.4.7",
-    "handlebars": "4.0.11"
+    "adm-zip": "0.4.13",
+    "handlebars": "4.1.0"
   },
   "devDependencies": {
-    "@neogeek/eslint-config-standards": "^2.0.0",
-    "eslint": "^4.2.0"
+    "@neogeek/eslint-config-standards": "4.1.0",
+    "babel-eslint": "10.0.1",
+    "eslint": "5.14.1"
   },
   "peerDependencies": {
     "doxdox": "~2.0.3"
