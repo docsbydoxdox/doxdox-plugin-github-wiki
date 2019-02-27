@@ -16,37 +16,42 @@ const admzip = require('adm-zip');
  * @public
  */
 
-const plugin = data => new Promise((resolve, reject) => {
+const plugin = data =>
+    new Promise((resolve, reject) => {
 
-    const zip = new admzip();
+        const zip = new admzip();
 
-    fs.readFile(path.join(__dirname, 'template.hbs'), 'utf8', (err, contents) => {
+        fs.readFile(
+            path.join(__dirname, 'template.hbs'),
+            'utf8',
+            (err, contents) => {
 
-        if (err) {
+                if (err) {
 
-            return reject(err);
+                    return reject(err);
 
-        }
+                }
 
-        const template = Handlebars.compile(contents);
+                const template = Handlebars.compile(contents);
 
-        data.files.forEach(file => {
+                data.files.forEach(file => {
 
-            file.methods.forEach(method => {
+                    file.methods.forEach(method => {
 
-                zip.addFile(
-                    `${file.name}/${method.name}.md`,
-                    template(method)
-                );
+                        zip.addFile(
+                            `${file.name}/${method.name}.md`,
+                            template(method)
+                        );
 
-            });
+                    });
 
-        });
+                });
 
-        return resolve(zip.toBuffer());
+                return resolve(zip.toBuffer());
+
+            }
+        );
 
     });
-
-});
 
 module.exports = plugin;
