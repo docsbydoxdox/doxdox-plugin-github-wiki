@@ -12,7 +12,7 @@
     "handlebars": "4.1.0"
   },
   "devDependencies": {
-    "@neogeek/eslint-config-standards": "4.1.0",
+    "@neogeek/eslint-config-standards": "4.2.0",
     "babel-eslint": "10.0.1",
     "eslint": "5.14.1"
   },
