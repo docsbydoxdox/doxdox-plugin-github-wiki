@@ -9,7 +9,7 @@
   "license": "MIT",
   "dependencies": {
     "adm-zip": "0.4.13",
-    "handlebars": "4.1.0"
+    "handlebars": "4.7.3"
   },
   "devDependencies": {
     "@neogeek/eslint-config-standards": "4.1.0",
