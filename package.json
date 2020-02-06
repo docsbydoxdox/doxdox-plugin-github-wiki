@@ -8,7 +8,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "adm-zip": "0.4.13",
+    "adm-zip": "0.4.14",
     "handlebars": "4.1.0"
   },
   "devDependencies": {
