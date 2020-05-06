@@ -9,7 +9,8 @@
   "license": "MIT",
   "dependencies": {
     "adm-zip": "0.4.13",
-    "handlebars": "4.1.0"
+    "handlebars": "4.1.0",
+    "snyk": "^1.319.0"
   },
   "devDependencies": {
     "@neogeek/eslint-config-standards": "4.1.0",
@@ -23,7 +24,9 @@
     "test": "npm run lint",
     "test:docs": "doxdox index.js --layout markdown | diff DOCUMENTATION.md -",
     "lint": "eslint .",
-    "docs": "doxdox index.js --layout markdown --output DOCUMENTATION.md"
+    "docs": "doxdox index.js --layout markdown --output DOCUMENTATION.md",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "doxdox",
@@ -43,5 +46,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/neogeek/doxdox-plugin-github-wiki.git"
-  }
+  },
+  "snyk": true
 }
